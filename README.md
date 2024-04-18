@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# Facebook Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Facebook clone 
 
-Currently, two official plugins are available:
+Project Context
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A project to enchance and practice my frontend skills, while knowing the best practices and code standards
 
-## Expanding the ESLint configuration
+## Authors
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [@React + Vite + Typescript](https://github.com/vitejs/vite)
+- Node `20.11.1`
+- BUN `v1.1.4`
+- bun
 
-- Configure the top-level `parserOptions` property like this:
+### Run Locally
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Clone the project
+
+```bash
+git clone https://github.com/TheAlfran/facebook-clone.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Use the specified Node version for the project
+
+```bash
+nvm use
+```
+
+Install dependencies using `bun`
+
+```bash
+bun install
+```
+
+Start the dev server
+
+```
+bun run dev & shift+O
+```
